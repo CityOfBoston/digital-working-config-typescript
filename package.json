@@ -1,6 +1,6 @@
 {
   "name": "config-typescript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Configuration files for TypeScript",
   "private": true,
   "license": "CC0-1.0",
