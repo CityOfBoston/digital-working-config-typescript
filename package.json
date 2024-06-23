@@ -3,5 +3,12 @@
   "version": "0.0.0",
   "description": "Configuration files for TypeScript",
   "private": true,
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "scripts": {
+    "rmBuild": "rm -rf build",
+    "mkBuildDir": "mkdir build",
+    "cpTsConfig": "cp src/tsconfig.default.json build/",
+    "build": "yarn run rmBuild && yarn run mkBuildDir && yarn run cpTsConfig"
+  },
+  "dependencies": {}
 }
